@@ -1,0 +1,93 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flashcard {
+  margin: 20px auto;
+  width: 400px;
+  height: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.flashcard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.flashcard:active {
+  transform: scale(0.95);
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.border-red-500 {
+  border-color: red !important;
+  border-radius: 8px; /* Smooth rounded corners */
+  border-width: 3px; /* Slightly thicker border for visibility */
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.6); /* Soft red glow */
+}
+
+.border-green-500 {
+  border-color: green !important;
+  border-radius: 8px; /* Smooth rounded corners */
+  border-width: 3px; /* Slightly thicker border for visibility */
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 8px rgba(0, 255, 0, 0.6); /* Soft green glow */
+}
+
+
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+
