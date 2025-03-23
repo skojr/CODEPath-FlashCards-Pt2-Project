@@ -1,3 +1,11 @@
+# Web Development Project 3 - *Flashcards App Pt2*
+
+Submitted by: **Samuel Obeng**
+
+This web app: **Allows users to study flash cards on Physics concepts.**
+
+## Required Features
+
 The following **required** functionality is completed:
 
 - [x] **The user can enter their guess in a box before seeing the flipside of the card**
@@ -21,7 +29,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with imgur.com. Here is the link: [text](https://imgur.com/a/D3bU0Yd)
+GIF created with imgur.com: [Demo](./src/assets/flashcards-pt2-recording.mp4)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
